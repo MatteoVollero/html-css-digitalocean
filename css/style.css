@@ -1,0 +1,33 @@
+
+
+.bg-green{
+  background-color: green;
+}
+
+.bg_red{
+  background-color: red;
+}
+
+.bg_blue{
+  background-color: blue;
+}
+
+.bg_grey{
+  background-color: grey;
+}
+
+.nav_bar_height{
+  height: 50px;
+}
+
+.jumbo{
+  height: 500px;
+}
+
+.jumbo_margin{
+  margin-top: 40px;
+}
+
+.pull_up_margin20{
+  margin-top: -20px;
+}
