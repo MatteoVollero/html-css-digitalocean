@@ -45,6 +45,10 @@
   line-height: 30px;
 }
 
+.border_bottom{
+  border-bottom: 1px solid white;
+}
+
 .margin_top_120{
   margin-top: 120px;
 }
@@ -61,4 +65,8 @@
 
 .padding_top_30{
   padding-top: 30px;
+}
+
+.margin_bottom_30{
+  margin-bottom: 30px;
 }
