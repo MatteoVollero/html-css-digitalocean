@@ -89,8 +89,20 @@
   color:#5c6a88;
 }
 
-.margin_top_10 p{
-  color:
+.margin_top_20{
+  margin-top: 20px;
+}
+
+.p_size{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #031c4e;
+}
+
+.slider_size{
+  width: 70%;
+  margin-top: 60px;
 }
 
 .form_container h2{
@@ -180,6 +192,13 @@
 .wrapper_color{
   padding-top: 40px;
   padding-bottom: 20px;
+  margin-bottom: 50px;
+  background-color: #f3f5f9;
+}
+
+.wrapper_color2{
+  padding-top: 40px;
+  padding-bottom: 60px;
   margin-bottom: 50px;
   background-color: #f3f5f9;
 }
