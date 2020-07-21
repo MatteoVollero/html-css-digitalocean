@@ -14,8 +14,39 @@
   background-color: grey;
 }
 
+.bg-white{
+  background-color: white;
+}
+
 .nav_bar_height{
   height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  color: #031c4e;
+}
+
+.nav_bar_height img{
+  width: 156px;
+}
+
+.nav_bar_height li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 15px;
+}
+
+.btn_empty{
+  text-transform: capitalize;
+  color: #3a8aff;
+  border: 1px solid #3a8aff;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+
+.glyphicon-menu-hamburger{
+  color: #3a8aff;
+  padding-top: 20px;
+  font-size: 18px;
 }
 
 .jumbo{
