@@ -35,6 +35,10 @@
   margin-right: 15px;
 }
 
+.padding{
+  padding: 15px;
+}
+
 .btn_empty{
   text-transform: capitalize;
   color: #3a8aff;
@@ -50,15 +54,97 @@
 }
 
 .jumbo{
-  height: 500px;
+  height: 600px;
+  color: white;
+}
+
+.google_position{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%,-50%);
+}
+
+.lead{
+  line-height: 25px;
+  font-weight: bold;
+  color: #bbcdff;
+}
+
+.form_container{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.margin_top_10{
+  color: black;
+  margin-top: 10px;
+}
+
+.form_container h2{
+  font-weight: bold;
+}
+
+.form_container h2:first-child{
+  color: black;
+}
+
+.form_container h2:nth-child(2){
+  color: #006aff;
+}
+
+.empty_form{
+  position: relative;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  line-height: 35px;
+  font-size: 15px;
+}
+
+::placeholder{
+  color: black;
+}
+
+.btn_full{
+  background-color: #579aff;
+  color: white;
+  font-weight: bold;
+}
+
+.btn_empty_form{
+  color: black;
+  box-shadow: 1px 1px lightgrey;
+  font-weight: bold;
+}
+
+.btn_empty_form img{
+  width: 30px;
+  margin-left: 5px;
+}
+
+
+.jumbo_wrapper{
+  background-image: url(../img/jumbotron.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
 
 .jumbo_margin{
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .pull_up_margin20{
   margin-top: -20px;
+}
+
+.pull_up_margin10{
+  margin-top: -10px;
 }
 
 .navbar_fixed{
@@ -82,6 +168,7 @@
 .wrapper_color{
   margin-top: 30px;
   margin-bottom: 50px;
+  background-color: #f3f5f9;
 }
 
 .border-left{
@@ -113,4 +200,23 @@
 
 .margin_bottom_30{
   margin-bottom: 30px;
+}
+
+.jumbo_padding{
+  padding: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+  .jumbo_margin{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  h1{
+    font-size: 48px;
+  }
+
 }
