@@ -77,8 +77,20 @@
 }
 
 .margin_top_10{
-  color: black;
   margin-top: 10px;
+}
+
+.rcd-color{
+  color: #031c4e;
+  font-weight: bold;
+}
+
+.rcd-p-color{
+  color:#5c6a88;
+}
+
+.margin_top_10 p{
+  color:
 }
 
 .form_container h2{
@@ -176,6 +188,8 @@
   color: #5c6a88;
 }
 
+
+
 .bold{
   font-weight: bold;
 }
@@ -192,7 +206,7 @@
 }
 
 .border-left{
-  border-left: 1px solid black;
+  border-left: 2px solid #cccccc;
   line-height: 30px;
 }
 
@@ -204,6 +218,10 @@
   margin-top: 120px;
 }
 
+.margin_bottom_10{
+  margin-bottom: 10px;
+}
+
 .main_list{
   list-style: none;
   margin-top: 30px;
@@ -212,6 +230,13 @@
 .main_list li{
   margin-left: -50px;
   padding-left: 5px;
+}
+
+.main_list li a{
+  list-style: none;
+  color: #75809a;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .padding_top_30{
