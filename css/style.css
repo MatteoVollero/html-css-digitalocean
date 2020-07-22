@@ -361,10 +361,14 @@
   padding-bottom: 30px;
 }
 
+.margin_bottom_20{
+  margin-bottom: 20px;
+}
+
 .fab{
   margin-right: 5px;
   font-size: 16px;
-  color: white;
+  color: #7a859d;
 }
 
 .footer-p{
@@ -377,6 +381,28 @@
   color: #546382;
   font-size: 13px;
   font-weight: bold;
+  margin-top: -15px;
+}
+
+footer h4{
+  color: white;
+  font-weight: bold;
+}
+
+footer ul{
+  margin-left: -35px;
+}
+
+footer ul li{
+  list-style: none;
+  color: #a6adbd;
+  font-weight: bold;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #a6adbd;
+  line-height: 25px;
 }
 
 
