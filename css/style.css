@@ -21,7 +21,7 @@
 .nav_bar_height{
   height: 50px;
   line-height: 50px;
-  font-weight: bold;
+  font-weight:bold;
   color: #031c4e;
 }
 
@@ -117,6 +117,18 @@
   color: #006aff;
 }
 
+.padding_bottom_30{
+  padding-bottom: 30px;
+}
+
+.padding_top_40{
+  padding-top: 40px;
+}
+
+.padding_bottom_40{
+  padding-bottom: 40px;
+}
+
 .empty_form{
   position: relative;
   background-color: white;
@@ -128,6 +140,10 @@
   margin-top: 10px;
   line-height: 35px;
   font-size: 15px;
+}
+
+.linear_gradient{
+  background: linear-gradient(#0048c6,#001d99);
 }
 
 ::placeholder{
@@ -268,6 +284,57 @@
 
 .jumbo_padding{
   padding: auto;
+}
+
+.title{
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.regions{
+  color: white;
+  font-weight: bold;;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.padding_bottom_70{
+  padding-bottom: 70px;
+}
+.developers{
+  font-weight: bold;
+  font-size: 34px;
+
+}
+
+.rockerbox{
+  width: 256px;
+}
+
+.main_list li .regions:last-child{
+  color: #00d5d1;
+}
+
+.main_list li .regions:nth-child(2){
+  color: #bbc9eb;
+}
+
+.white_container{
+  position: relative;
+  width: 50%;
+  min-width: 270px;
+  max-width: 400px;
+  height: 300px;
+  margin: auto;
+  background-color: white;
+}
+
+.contenuto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 @media screen and (max-width: 768px) {
